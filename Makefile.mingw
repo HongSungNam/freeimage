@@ -15,7 +15,7 @@ RCFILE = FreeImage.rc
 # also be specified as an environment variable and can hold
 # any of STATIC and SHARED and must be in uppercase letters.
 # Default: SHARED
-#FREEIMAGE_LIBRARY_TYPE = STATIC
+FREEIMAGE_LIBRARY_TYPE = STATIC
 
 # Redefine the compiler (CC defaults to ´cc´ for MinGW's make, however
 # there's only ´gcc´ available with MinGW)
